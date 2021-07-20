@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ad51ec-1660-43a3-849c-7371a3b238d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/style.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Restaurant.jsx" afterDir="false" />
+    <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/open.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/star.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/fonts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/sizes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/spacing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/style.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1vMIgTMmJ4gol4WvMK8vP1JWpVV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1vXUsPzNsr3OTsQGcxkEi5AFzyx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,20 +42,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="45ad51ec-1660-43a3-849c-7371a3b238d8" name="Default Changelist" comment="" />
-      <created>1626365645030</created>
+      <changelist id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="" />
+      <created>1626708133217</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1626365645030</updated>
-      <workItem from="1626365646255" duration="8446000" />
+      <updated>1626708133217</updated>
+      <workItem from="1626708135154" duration="8043000" />
     </task>
     <servers />
   </component>
