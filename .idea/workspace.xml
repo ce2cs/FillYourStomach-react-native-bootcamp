@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/open.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/star.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/fonts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/sizes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme/spacing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/restaurant/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/restaurant/service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/style.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestaurantCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mock/antwerp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/antwerp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mock/chicago.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/chicago.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mock/san_francisco.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/san_francisco.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/mock/toronto.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/toronto.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,22 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services/restaurant" />
+      <recent name="$PROJECT_DIR$/src/services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="service.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/services/restaurant/service.js" working-dir="$PROJECT_DIR$/src/services/restaurant">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.service.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626708133217</updated>
-      <workItem from="1626708135154" duration="8043000" />
+      <workItem from="1626708135154" duration="21330000" />
     </task>
     <servers />
   </component>
