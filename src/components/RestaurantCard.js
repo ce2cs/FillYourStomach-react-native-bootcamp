@@ -45,6 +45,7 @@ const SectionEnd = styled.View`
   flex-direction: row;
   justify-content: flex-end;
 `;
+
 export const RestaurantInfoCard = ({restaurant = {}}) => {
   const {
     name = "Some Restaurant",
