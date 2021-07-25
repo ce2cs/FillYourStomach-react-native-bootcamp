@@ -39,6 +39,7 @@ export const LocationContextProvider = ({children}) => {
         location,
         search: onSearch,
         keyword,
+        setKeyword
       }}
     >
       {children}
