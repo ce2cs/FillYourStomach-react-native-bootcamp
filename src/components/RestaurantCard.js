@@ -5,6 +5,7 @@ import {Card} from "react-native-paper";
 import {SvgXml} from "react-native-svg";
 import star from "../../assets/star";
 import open from "../../assets/open";
+import FavoriteButton from "./FavoriteButton";
 
 const RestaurantCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.bg.primary};
@@ -42,8 +43,7 @@ const Section = styled.View`
 `;
 const SectionEnd = styled.View`
   flex: 1;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: row; justify-content: flex-end;
 `;
 
 export const RestaurantInfoCard = ({restaurant = {}}) => {
@@ -62,6 +62,7 @@ export const RestaurantInfoCard = ({restaurant = {}}) => {
   const ratingArray = new Array(Math.floor(rating)).fill(0);
   return (
     <RestaurantCard elevation={5}>
+      <FavoriteButton restaurant={restaurant}/>
       <RestaurantCardCover key={name} source={{uri: photos[0]}}/>
       <Info>
         <Title>{name}</Title>
@@ -72,6 +73,7 @@ export const RestaurantInfoCard = ({restaurant = {}}) => {
                 return <SvgXml key={idx} xml={star} width={20} height={20}/>
               })
             }
+            <Text>  {rating}</Text>
           </Rating>
           <SectionEnd>
             {isClosedTemporarily && (
