@@ -12,6 +12,7 @@ import SafeArea from "../components/SafeArea";
 import {isShowFavoritesOnlyContext} from "../context/isFavoritesOnly";
 import {FavoritesContext} from "../services/Favorites/context";
 import {isRestaurantSortedContext} from "../context/isRestaurantSorted";
+import {LocationContext} from "../services/Location/context";
 
 
 const RestaurantListContainer = styled.View`
@@ -21,19 +22,24 @@ const RestaurantListContainer = styled.View`
 
 
 const Restaurants = ({navigation}) => {
-  const {restaurants, isLoading, error} = useContext(RestaurantsContext);
+  const {restaurants, isLoading: restaurantIsLoading, error, setRestaurants} = useContext(RestaurantsContext);
+  const {isLoading: locationIsLoading} = useContext(LocationContext)
   const {isShowFavoritesOnly} = useContext(isShowFavoritesOnlyContext);
   const {favorites} = useContext(FavoritesContext);
   const {isRestaurantSorted} = useContext(isRestaurantSortedContext);
+
   useEffect(
     () => {
-      restaurants.sort((rest1, rest2) => {
-        if (rest1.rating > rest2.rating) {
-          return -1;
-        } else {
-          return 1;
-        }
-      })
+      if (isRestaurantSorted && restaurants) {
+        restaurants.sort((rest1, rest2) => {
+          if (rest1.rating > rest2.rating) {
+            return -1;
+          } else {
+            return 1;
+          }
+        })
+        setRestaurants([...restaurants]);
+      }
     },
     [isRestaurantSorted]
   )
@@ -41,7 +47,7 @@ const Restaurants = ({navigation}) => {
   return (
     <SafeArea>
       <LocationSearchBar/>
-      {isLoading ?
+      {locationIsLoading || restaurantIsLoading ?
         <Loading/>
         : <FlatList
           data={isShowFavoritesOnly ? favorites : restaurants}
@@ -51,7 +57,7 @@ const Restaurants = ({navigation}) => {
             </TouchableOpacity>);
           }}
           keyExtractor={(item, index) => {
-            return index.toString()
+            return index.toString();
           }}
           contentContainerStyle={{padding: 16}}
         />

@@ -18,6 +18,7 @@ import {NativeBaseProvider} from "native-base"
 import {IsShowFavoritesOnlyContextProvider} from "./src/context/isFavoritesOnly";
 import {IsRestaurantSortedContextProvider} from "./src/context/isRestaurantSorted";
 import firebase from "firebase";
+import {AuthenticationContextProvider} from "./src/services/authentication/context";
 
 const firebaseConfig = {
   apiKey: "AIzaSyD5FevnPxEqI28YFD20GFd3Ft7ywGttZEM",
@@ -42,22 +43,14 @@ export default function App() {
   } else {
     return (
       <NavigationContainer>
-        <NativeBaseProvider>
-          <IsShowFavoritesOnlyContextProvider>
+        <AuthenticationContextProvider>
+          <NativeBaseProvider>
             <ThemeProvider theme={theme}>
-              <FavoritesContextProvider>
-                <LocationContextProvider>
-                  <RestaurantsContextProvider>
-                    <IsRestaurantSortedContextProvider>
-                      <Navigator/>
-                    </IsRestaurantSortedContextProvider>
-                    <ExpoStatusBar style="auto"/>
-                  </RestaurantsContextProvider>
-                </LocationContextProvider>
-              </FavoritesContextProvider>
+              <Navigator/>
+              <ExpoStatusBar style="auto"/>
             </ThemeProvider>
-          </IsShowFavoritesOnlyContextProvider>
-        </NativeBaseProvider>
+          </NativeBaseProvider>
+        </AuthenticationContextProvider>
       </NavigationContainer>
     )
       ;

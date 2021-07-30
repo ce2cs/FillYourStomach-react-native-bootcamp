@@ -5,6 +5,6 @@ import styled from "styled-components/native/dist/styled-components.native.esm";
 const LoadingIndicator = styled(ActivityIndicator)`
   margin: auto;
 `
-const Loading = () => <LoadingIndicator animating={true} size='large' color={Colors.red800}/>
+const Loading = ({color=Colors.red800}) => <LoadingIndicator animating={true} size='large' color={color}/>
 
 export default Loading;

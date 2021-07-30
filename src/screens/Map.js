@@ -9,13 +9,14 @@ import RestaurantInfoMapPreview from "../components/RestaurantInfoMapPreview";
 import RestaurantDetail from "./RestaurantDetail";
 import {FavoritesContext} from "../services/Favorites/context";
 import {isShowFavoritesOnlyContext} from "../context/isFavoritesOnly";
+import Loading from "../components/Loading";
 
 const StyledMapView = styled(MapView)`
   height: 100%;
   width: 100%;
 
 `
-const renderMapCallout = (restaurant) => {
+const renderMapCallout = (restaurant, navigation) => {
   return (
     <MapView.Marker
       key={restaurant.name}
@@ -33,7 +34,8 @@ const renderMapCallout = (restaurant) => {
 
 const Map = ({navigation}) => {
   const {location} = useContext(LocationContext);
-  const {restaurants = []} = useContext(RestaurantsContext);
+  const {restaurants = [], isLoading: restaurantIsLoading} = useContext(RestaurantsContext);
+  const {isLoading: locationIsLoading} = useContext(LocationContext)
   const {favorites = []} = useContext(FavoritesContext);
   const {isShowFavoritesOnly} = useContext(isShowFavoritesOnlyContext);
 
@@ -49,21 +51,24 @@ const Map = ({navigation}) => {
   }, [location, viewport]);
   return (<SafeArea>
     <SearchBar/>
-    <StyledMapView region={{
-      latitude: lat,
-      longitude: lng,
-      latitudeDelta: latDelta,
-      longitudeDelta: 0.02,
-    }}>
-      {isShowFavoritesOnly ?
-        favorites.map((restaurant) => {
-          return renderMapCallout(restaurant);
-        })
-        : restaurants.map((restaurant) => {
-          return renderMapCallout(restaurant);
-        })
-      }
-    </StyledMapView>
+    {restaurantIsLoading || locationIsLoading
+      ? <Loading/>
+      : <StyledMapView region={{
+        latitude: lat,
+        longitude: lng,
+        latitudeDelta: latDelta,
+        longitudeDelta: 0.02,
+      }}>
+        {isShowFavoritesOnly ?
+          favorites.map((restaurant) => {
+            return renderMapCallout(restaurant, navigation);
+          })
+          : restaurants.map((restaurant) => {
+            return renderMapCallout(restaurant, navigation);
+          })
+        }
+      </StyledMapView>
+    }
   </SafeArea>)
 }
 
