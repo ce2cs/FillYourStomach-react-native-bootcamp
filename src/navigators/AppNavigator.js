@@ -11,6 +11,7 @@ import {FavoritesContextProvider} from "../services/Favorites/context";
 import {LocationContextProvider} from "../services/Location/context";
 import {RestaurantsContextProvider} from "../services/restaurant/context";
 import {IsRestaurantSortedContextProvider} from "../context/isRestaurantSorted";
+import SettingsNavigator from "./SettingsNavigator";
 
 const Tab = createBottomTabNavigator();
 
@@ -48,7 +49,7 @@ const AppNavigator = () => {
               >
                 <Tab.Screen name="Restaurant" component={RestaurantsNavigator}/>
                 <Tab.Screen name="Map" component={Map}/>
-                <Tab.Screen name="Settings" component={Settings}/>
+                <Tab.Screen name="Settings" component={SettingsNavigator}/>
               </Tab.Navigator>
             </IsRestaurantSortedContextProvider>
           </RestaurantsContextProvider>

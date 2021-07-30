@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/food-animation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hamberger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/meal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AccountBackground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AccountTextInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppHeading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spacer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navigators/AccountNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Account.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/authentication/context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/authentication/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigators/SettingsNavigator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/Camera.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navigators/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/AppNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Favorites/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Favorites/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/restaurant/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/spacing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Settings.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -98,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626708133217</updated>
-      <workItem from="1626708135154" duration="93596000" />
+      <workItem from="1626708135154" duration="95324000" />
     </task>
     <servers />
   </component>
