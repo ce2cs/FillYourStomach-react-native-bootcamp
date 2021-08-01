@@ -1,24 +1,28 @@
 import camelize from "camelize";
 
 import {locations} from "./mock";
+import {host, isProduction} from "../../utils/config";
 
-const fetchLocationAPI = (searchTerm) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(locations[searchTerm])
-    }, 3000)
-  })
-};
+// const fetchLocationAPI = (searchTerm) => {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(locations[searchTerm])
+//     }, 3000)
+//   })
+// };
 
 export const locationRequest = async (searchTerm) => {
-  try {
-    searchTerm = searchTerm.toLowerCase();
-    const locationMock = await fetchLocationAPI(searchTerm);
-    const transformed = locationTransform(locationMock);
-    return transformed;
-  } catch (e) {
-    console.log(e.message);
+  searchTerm = searchTerm.toLowerCase();
+  let requestURL;
+  if (isProduction) {
+    requestURL = `${host}/geocode?city=${searchTerm}`;
+  } else {
+    requestURL = `${host}/geocode?city=${searchTerm}&mock=true`;
   }
+  const location = await fetch(requestURL);
+  const locResponse = await location.json()
+  const transformed = locationTransform(locResponse);
+  return transformed;
 };
 
 export const locationTransform = (location) => {

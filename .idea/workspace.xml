@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/navigators/SettingsNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/geocode/geocode.mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/geocode/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/places/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/places/mock/antwerp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/places/mock/chicago.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/places/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/places/mock/san_francisco.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navigators/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/AppNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Location/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Location/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/functions/places" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -51,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/functions/places" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626708133217</updated>
-      <workItem from="1626708135154" duration="95324000" />
+      <workItem from="1626708135154" duration="110909000" />
     </task>
     <servers />
   </component>
@@ -106,13 +118,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/screens/Map.js</url>
-          <line>68</line>
+          <line>75</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/screens/Map.js</url>
-          <line>54</line>
+          <line>61</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>

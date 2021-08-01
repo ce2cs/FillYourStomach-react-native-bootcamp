@@ -40,15 +40,22 @@ const Map = ({navigation}) => {
   const {isShowFavoritesOnly} = useContext(isShowFavoritesOnlyContext);
 
   const [latDelta, setLatDelta] = useState(0);
+  const [lat, setLat] = useState(0);
+  const [lng, setLng] = useState(0);
 
-  const {lat, lng, viewport} = location;
 
   useEffect(() => {
-    const northeastLat = viewport.northeast.lat;
-    const southwestLat = viewport.southwest.lat;
+    if (location) {
+      const {lat, lng, viewport} = location;
+      const northeastLat = viewport.northeast.lat;
+      const southwestLat = viewport.southwest.lat;
 
-    setLatDelta(northeastLat - southwestLat);
-  }, [location, viewport]);
+      setLat(lat);
+      setLng(lng);
+      setLatDelta(northeastLat - southwestLat);
+    }
+  }, [location]);
+
   return (<SafeArea>
     <SearchBar/>
     {restaurantIsLoading || locationIsLoading

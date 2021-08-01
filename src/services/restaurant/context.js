@@ -9,12 +9,19 @@ export const RestaurantsContextProvider = ({children}) => {
   const [restaurants, setRestaurants] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [reloadTime, setReloadTime] = useState(0);
   const {location} = useContext(LocationContext);
+
+  const reload = () => {
+    setReloadTime(reloadTime + 1);
+  }
 
   const restaurantRequestAsync = async (location) => {
     setIsLoading(true)
+    setError(null)
     try {
-      const restaurantsData = await restaurantsRequest(location);
+      const formattedLocation = `${location.lat},${location.lng}`
+      const restaurantsData = await restaurantsRequest(formattedLocation);
       setRestaurants(restaurantsData);
       setIsLoading(false)
     } catch (err) {
@@ -25,8 +32,10 @@ export const RestaurantsContextProvider = ({children}) => {
   }
 
   useEffect(() => {
-    restaurantRequestAsync(location);
-  }, [location])
+    if (location) {
+      restaurantRequestAsync(location);
+    }
+  }, [location, reloadTime])
 
   return (
     <RestaurantsContext.Provider
@@ -34,7 +43,8 @@ export const RestaurantsContextProvider = ({children}) => {
         restaurants,
         isLoading,
         error,
-        setRestaurants
+        setRestaurants,
+        reload
       }}
     >
       {children}

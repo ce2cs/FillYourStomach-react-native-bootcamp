@@ -1,18 +1,24 @@
-import {mockImages, mocks} from "./mock";
 import camelize from "camelize";
+import {host, isProduction} from "../../utils/config";
 
-const fetchAPI = async (location) => {
-  const formattedLocation = `${location.lat},${location.lng}`
-  return await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(mocks[formattedLocation])
-    }, 3000)
-  });
-}
+// const fetchAPI = async (location) => {
+//   return await new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(mocks[formattedLocation])
+//     }, 3000)
+//   });
+// }
 export const restaurantsRequest = async (location = "37.7749295,-122.4194155") => {
   try {
-    const response = await fetchAPI(location);
-    const transformed = restaurantsTransform(response);
+    let requestURL;
+    if (isProduction) {
+      requestURL = `${host}/placesNearby?location=${location}`
+    } else{
+      requestURL = `${host}/placesNearby?location=${location}&mock=true`
+    }
+    const response = await fetch(requestURL);
+    const resData = await response.json();
+    const transformed = restaurantsTransform(resData);
     return transformed;
   } catch (error) {
     console.log(error.message)
@@ -26,8 +32,6 @@ const restaurantsTransform = ({results = []}) => {
       ...restaurant,
       isOpenNow: restaurant.opening_hours && restaurant.opening_hours.open_now,
       isClosedTemporarily: restaurant.business_status === "CLOSED_TEMPORARILY",
-      photos: restaurant.photos.map(() =>
-        mockImages[Math.ceil(Math.random() * (mockImages.length - 1))]),
       address: restaurant.vicinity
     };
   });

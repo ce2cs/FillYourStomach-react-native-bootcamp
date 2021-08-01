@@ -9,19 +9,26 @@ export const LocationContextProvider = ({children}) => {
   const [location, setLocation] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [reloadTime, setReloadTime] = useState(0);
+
+  const reload = () => {
+    setReloadTime(reloadTime + 1);
+  }
 
   useEffect(() => {
     async function locationRequestAsync(keyword) {
+      setError(null)
       try {
         const res = await locationRequest(keyword.toLowerCase());
         setLocation(res);
         setIsLoading(false)
       } catch (e) {
+        setError(e);
         console.log(e.message);
       }
     }
     locationRequestAsync(keyword)
-  }, [keyword])
+  }, [keyword, reloadTime])
 
   const onSearch = (searchKeyword) => {
     setKeyword(searchKeyword);
@@ -39,7 +46,8 @@ export const LocationContextProvider = ({children}) => {
         location,
         search: onSearch,
         keyword,
-        setKeyword
+        setKeyword,
+        reload
       }}
     >
       {children}

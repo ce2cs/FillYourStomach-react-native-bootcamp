@@ -29,7 +29,12 @@ const firebaseConfig = {
   appId: "1:241794748598:web:f1670330f47f1b1f60d617"
 };
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+
+if (!firebase.apps.length) {
+  firebase.initializeApp({});
+}else {
+  firebase.app(); // if already initialized, use that one
+}
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -47,7 +52,6 @@ export default function App() {
           <NativeBaseProvider>
             <ThemeProvider theme={theme}>
               <Navigator/>
-              <ExpoStatusBar style="auto"/>
             </ThemeProvider>
           </NativeBaseProvider>
         </AuthenticationContextProvider>
