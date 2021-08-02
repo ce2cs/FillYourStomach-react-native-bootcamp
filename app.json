@@ -7,7 +7,8 @@
     "icon": "./assets/meal.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain", "backgroundColor": "#ffffff"
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/meal.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gohuskies.mealsToGo"
     },
     "web": {
       "favicon": "./assets/meal.jpeg"

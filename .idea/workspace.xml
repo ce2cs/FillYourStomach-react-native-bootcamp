@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/geocode/geocode.mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/geocode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/places/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/places/mock/antwerp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/places/mock/chicago.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/places/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/places/mock/san_francisco.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorAlert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigators/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/AppNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Location/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Location/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/restaurant/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/restaurant/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626708133217</updated>
-      <workItem from="1626708135154" duration="110909000" />
+      <workItem from="1626708135154" duration="112156000" />
     </task>
     <servers />
   </component>
