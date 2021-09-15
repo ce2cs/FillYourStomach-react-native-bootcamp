@@ -7,16 +7,10 @@ import {
   useFonts,
   Oswald_400Regular,
 } from '@expo-google-fonts/oswald';
-import {Provider} from 'react-native-paper';
 import {Lato_400Regular} from '@expo-google-fonts/lato';
 import {NavigationContainer} from "@react-navigation/native";
-import {RestaurantsContextProvider} from './src/services/restaurant/context'
-import {LocationContextProvider} from "./src/services/Location/context";
 import Navigator from "./src/navigators";
-import {FavoritesContextProvider} from "./src/services/Favorites/context";
 import {NativeBaseProvider} from "native-base"
-import {IsShowFavoritesOnlyContextProvider} from "./src/context/isFavoritesOnly";
-import {IsRestaurantSortedContextProvider} from "./src/context/isRestaurantSorted";
 import firebase from "firebase";
 import {AuthenticationContextProvider} from "./src/services/authentication/context";
 

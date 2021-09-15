@@ -2,9 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1efc078-3172-4544-9bf9-b95db2e0b266" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.expo-shared/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo-shared/assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mealsToGo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mealsToGo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/food-animation.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/food-animation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/food-image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/food-image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hamberger.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/hamberger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/meal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/meal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/open.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/open.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/star.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/star.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/functions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/geocode/geocode.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/geocode/geocode.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/geocode/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/geocode/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/places/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/places/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/places/mock/antwerp.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/places/mock/antwerp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/places/mock/chicago.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/places/mock/chicago.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/places/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/places/mock/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/places/mock/san_francisco.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/places/mock/san_francisco.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/ui-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/functions/ui-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBackground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBackground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountTextInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountTextInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppHeading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppHeading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AuthButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AuthButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorAlert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorAlert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FavoriteButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FavoriteButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestaurantCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RestaurantInfoMapPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RestaurantInfoMapPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SafeArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SafeArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Spacer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spacer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/isFavoritesOnly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/isFavoritesOnly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/isLoadingContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/isLoadingContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/isRestaurantSorted.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/isRestaurantSorted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigators/AccountNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/AccountNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigators/AppNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/AppNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigators/RestaurantNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/RestaurantNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigators/SettingsNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/SettingsNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigators/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Restaurant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Restaurant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/RestaurantDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RestaurantDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Favorites/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Favorites/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Location/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Location/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Location/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Location/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/authentication/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/authentication/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/authentication/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/authentication/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/mock/antwerp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/antwerp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/mock/chicago.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/chicago.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/mock/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/mock/san_francisco.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/san_francisco.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/mock/toronto.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/mock/toronto.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/restaurant/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/restaurant/service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/fonts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/sizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/spacing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/spacing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +118,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/functions/places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -73,7 +153,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626708133217</updated>
-      <workItem from="1626708135154" duration="112156000" />
+      <workItem from="1626708135154" duration="112919000" />
+      <workItem from="1629676643958" duration="1883000" />
+      <workItem from="1631747120845" duration="378000" />
     </task>
     <servers />
   </component>
@@ -90,6 +172,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -97,19 +180,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/SearchBar.js</url>
           <line>65</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/screens/Map.js</url>
           <line>75</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/screens/Map.js</url>
           <line>61</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

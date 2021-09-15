@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mealsToGo",
-    "slug": "mealsToGo",
+    "name": "FullYourStomach",
+    "slug": "FullYourStomach",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/meal.png",
@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/meal.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.gohuskies.mealsToGo"
+      "package": "com.gohuskies.fullYourStomach"
     },
     "web": {
       "favicon": "./assets/meal.jpeg"
